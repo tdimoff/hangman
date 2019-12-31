@@ -1,0 +1,100 @@
+body {
+  background: #232323;
+}
+
+
+.wrapper {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.hangman-wrapper {
+  width: 400px;
+  height: 500px;
+  border: 2px solid #317e9c;
+  position: relative;
+}
+
+.piece {
+  background: #317e9c;
+  position: absolute;
+  display: none;
+}
+
+.piece-1 {
+  width: 100px;
+  height: 20px;
+  left: 50px;
+  bottom: 0;
+}
+.piece-2 {
+  width: 10px;
+  height: 400px;
+  left: 70px;
+  bottom: 20px;
+}
+
+.piece-3 {
+  width: 250px;
+  height: 3px;
+  left: 60px;
+  bottom: 400px;
+}
+
+.piece-4 {
+  width: 3px;
+  height: 40px;
+  left: 279px;
+  bottom: 370px;
+}
+
+.piece-5 {
+  width: 60px;
+  height: 60px;
+  left: 250px;
+  top: 130px;
+  border-radius: 50%;
+}
+
+.piece-6 {
+  width: 2px;
+  height: 120px;
+  left: 280px;
+  top: 190px;
+}
+
+.piece-7 {
+  width: 2px;
+  height: 70px;
+  left: 248px;
+  top: 180px;
+  transform: rotate(115deg);
+}
+
+.piece-8 {
+  width: 2px;
+  height: 70px;
+  left: 313px;
+  top: 180px;
+  transform: rotate(65deg);
+}
+
+.piece-9 {
+  width: 2px;
+  height: 70px;
+  left: 305px;
+  top: 299px;
+  transform: rotate(135deg);
+}
+
+
+.piece-10 {
+  width: 2px;
+  height: 70px;
+  left: 255px;
+  top: 299px;
+  transform: rotate(45deg);
+}
