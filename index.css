@@ -5,6 +5,7 @@ body {
 
 .wrapper {
   display: flex;
+  flex-direction: column;
   width: 100vw;
   height: 100vh;
   align-items: center;
@@ -16,6 +17,33 @@ body {
   height: 500px;
   border: 2px solid #317e9c;
   position: relative;
+}
+
+.letter-input {
+  margin-bottom: 1rem;
+  background-color: transparent;
+  width: 3.5rem;
+  height: 3.5rem;
+  border: 2px solid #317e9c;
+  color: #317e9c;
+  font-size: 3.5rem;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.word-wrapper {
+  margin-top: 1rem;
+}
+
+.word-wrapper .letter {
+  font-size: 2rem;
+  color: #317e9c;
+  border-bottom: 2px solid #317e9c;
+  margin: 0 0.3rem;
+  padding: 0 0.2rem;
+  width: 2rem;
+  display: inline-block;
+  height: 2rem;
 }
 
 .piece {
